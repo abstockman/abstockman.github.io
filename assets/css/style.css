@@ -1,0 +1,133 @@
+/*nav styles*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url('../images/old_moon.png')
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #666666;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+nav {
+  background: white;
+  width: 100%;
+  border-bottom: 2px solid #666666;
+  /*position changed the vertical alignment of the brandlogo*/
+  position: fixed;
+  top: 0;
+}
+
+.brandlogo {
+  display: inline-block;
+}
+
+.brandlogo a {
+  display: inline-block;
+  background-color: #666666;
+  color: #FFF;
+  padding: 20px 35px;
+  font-size: 1.50em;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+  margin-top: 8px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #F3F3F3;
+  color: #666666;
+}
+
+nav li:last-child a {
+  border-right: none;
+}
+
+.main {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.bigbox {
+  background: #fff;
+  width: 60%;
+  padding: 30px;
+  float: left;
+  margin-bottom: 90px;
+}
+
+.bigbox h1 {
+  font-size: 1.50em;
+  color: #666666;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #666666;
+}
+
+.bigbox p {
+  padding-top: 20px;
+}
+
+.bigbox p img {
+  max-width: 30%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  float: left;
+}
+
+.connectbox {
+    background: #fff;
+    width: 20%;
+    padding: 30px;
+    float: right;
+}
+
+.connectbox h1 {
+  font-size: 1.50em;
+  color: #666666;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #666666;
+}
+
+.icons img {
+  max-width: 60px;
+  padding-top: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background: #666666;
+  width: 100%;
+  padding: 20px;
+  border-top: 4px solid #fff;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+nav ul a:hover {
+  color: #007AB9;
+}
